@@ -1,13 +1,5 @@
-# Sample Hardhat Project
+# Practice Smart Contract (Simple Voting)
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+This project is done as a review of smart contract development basics.
 
-Try running some of the following tasks:
-
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
-```
+This is a simple voting smart contract that lets the owner start a vote, initialize candidates and duration. Also allows users to vote, get Candidates, and get the winner.
